@@ -1,0 +1,9 @@
+﻿Local cleanup verification
+Checked on: 2026-10-03 (Asia/Bangkok)
+Command: terraform -chdir=terraform state list
+Output lines: 0
+State resource count: 0
+State serial: 71
+No raw state or credentials included.
+This verifies local Terraform state only; cloud-side verification is pending.
+Cloud verification attempted with AWS CLI: failed with SignatureDoesNotMatch / Signature expired. No cloud resource changes were made.
