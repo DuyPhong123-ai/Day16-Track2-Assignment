@@ -5,5 +5,12 @@ Output lines: 0
 State resource count: 0
 State serial: 71
 No raw state or credentials included.
-This verifies local Terraform state only; cloud-side verification is pending.
 Cloud verification attempted with AWS CLI: failed with SignatureDoesNotMatch / Signature expired. No cloud resource changes were made.
+User-provided console screenshots: us-east-1 (N. Virginia).
+screenshots/8_cleanup_ec2.png: no instances.
+screenshots/9_cleanup_nat.png: no NAT gateways.
+screenshots/10_cleanup_alb.png: empty load balancer list.
+screenshots/11_cleanup_vpc.png: remaining VPC differs from lab VPC in local backup.
+screenshots/12_cleanup_elastic_ips.png: no Elastic IP addresses.
+Screenshots establish observed status, not the exact destruction time.
+EBS Volumes screenshot and updated Billing date/NAT breakdown are still missing.
