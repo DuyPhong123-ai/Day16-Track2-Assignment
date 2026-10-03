@@ -13,4 +13,4 @@ screenshots/10_cleanup_alb.png: empty load balancer list.
 screenshots/11_cleanup_vpc.png: remaining VPC differs from lab VPC in local backup.
 screenshots/12_cleanup_elastic_ips.png: no Elastic IP addresses.
 Screenshots establish observed status, not the exact destruction time.
-EBS Volumes screenshot and updated Billing date/NAT breakdown are still missing.
+screenshots/13_cleanup_ebs_volumes.png: no volumes in us-east-1; snapshot summary last updated 2026-10-03 17:02:04 GMT+07:00. Updated Billing date/NAT breakdown is still missing.
